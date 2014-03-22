@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+	<canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;"> 
+	</canvas>
+	<script src="main.js"></script>
+	<script>
+		window.onload = function(){
+			window.sim = new Simulation();
+			window.sim.init();
+			window.sim.run();
+		};
+	</script>
+</body>
