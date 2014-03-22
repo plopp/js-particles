@@ -60,6 +60,8 @@ function Simulation(){
 		this.t = 10;
 		this.frame = 0;
 		this.particles = [];
+		this.cx = this.canvas.width/2;
+		this.cy = this.canvas.height/2;
     	for(var i = 0; i<10; i++){
 			this.particles.push(new Particle(this.canvas.width/2,this.canvas.height/2));
 		}
